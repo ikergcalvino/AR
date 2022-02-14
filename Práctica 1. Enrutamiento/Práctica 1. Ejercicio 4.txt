@@ -1,5 +1,6 @@
 en
 conf t
+hostname R1
 no ip domain-lookup
 
 line console 0
@@ -24,6 +25,7 @@ reload
 
 en
 conf t
+hostname R2
 no ip domain-lookup
 
 line console 0
@@ -55,6 +57,7 @@ reload
 
 en
 conf t
+hostname R3
 no ip domain-lookup
 
 line console 0
