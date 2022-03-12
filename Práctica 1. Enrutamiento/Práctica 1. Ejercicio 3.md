@@ -1,3 +1,8 @@
+# Práctica 1. Ejercicio 3
+
+## R1
+
+```
 en
 conf t
 hostname R1
@@ -21,8 +26,11 @@ exit
 end
 wr
 reload
+```
 
+## R2
 
+```
 en
 conf t
 hostname R2
@@ -48,8 +56,11 @@ exit
 end
 wr
 reload
+```
 
+## R3
 
+```
 en
 conf t
 hostname R3
@@ -71,3 +82,4 @@ exit
 end
 wr
 reload
+```

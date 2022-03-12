@@ -1,3 +1,8 @@
+# Ejercicio 2. Escenario Base
+
+## R1
+
+```
 en
 conf t
 hostname R1
@@ -33,8 +38,11 @@ exit
 end
 wr
 reload
+```
 
+## R2
 
+```
 en
 conf t
 hostname R2
@@ -76,8 +84,11 @@ exit
 end
 wr
 reload
+```
 
+## R3
 
+```
 en
 conf t
 hostname R3
@@ -107,3 +118,4 @@ exit
 end
 wr
 reload
+```

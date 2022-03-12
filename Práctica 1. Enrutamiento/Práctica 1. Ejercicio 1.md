@@ -1,3 +1,8 @@
+# Práctica 1. Ejercicio 1
+
+## R1
+
+```
 en
 conf t
 hostname R1
@@ -21,8 +26,11 @@ ip route 192.168.4.0 255.255.255.0 192.168.2.2
 end
 wr
 reload
+```
 
+## R2
 
+```
 en
 conf t
 hostname R2
@@ -49,3 +57,4 @@ ip route 192.168.1.0 255.255.255.0 192.168.2.1
 end
 wr
 reload
+```

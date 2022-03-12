@@ -1,3 +1,8 @@
+# Práctica 1. Entrega 2
+
+## ISP1
+
+```
 en
 conf t
 hostname ISP1
@@ -37,8 +42,11 @@ exit
 end
 wr
 reload
+```
 
+## ISP2
 
+```
 en
 conf t
 hostname ISP2
@@ -68,8 +76,11 @@ exit
 end
 wr
 reload
+```
 
+## ISP3
 
+```
 en
 conf t
 hostname ISP3
@@ -108,8 +119,11 @@ exit
 end
 wr
 reload
+```
 
+## HQ-R1
 
+```
 en
 conf t
 hostname HQ-R1
@@ -151,8 +165,11 @@ exit
 end
 wr
 reload
+```
 
+## HQ-R2
 
+```
 en
 conf t
 hostname HQ-R2
@@ -194,8 +211,11 @@ exit
 end
 wr
 reload
+```
 
+## HQ-R3
 
+```
 en
 conf t
 hostname HQ-R3
@@ -240,8 +260,11 @@ exit
 end
 wr
 reload
+```
 
+## BR-1
 
+```
 en
 conf t
 hostname BR-1
@@ -268,3 +291,4 @@ ip route 0.0.0.0 0.0.0.0 192.0.2.33
 end
 wr
 reload
+```
