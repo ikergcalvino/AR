@@ -1,5 +1,8 @@
 # Backup files.
 *.bak
 
-# PDF files.
+# Text files.
+*.txt
+
+# PDFs de la defensa.
 **/Defensa/*.pdf
