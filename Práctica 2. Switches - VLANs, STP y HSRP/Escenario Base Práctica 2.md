@@ -138,7 +138,37 @@ line console 0
 logging synchronous
 exit
 
-! config
+vlan 10
+name BLUE
+exit
+
+vlan 20
+name RED
+exit
+
+vlan 30
+name GREEN
+exit
+
+vlan 40
+name YELLOW
+exit
+
+int g1/0/1
+switchport mode trunk
+
+int g1/0/2
+switchport mode trunk
+
+int g1/0/3
+switchport mode trunk
+
+exit
+
+spanning-tree vlan 10 priority 4096
+spanning-tree vlan 20 priority 4096
+spanning-tree vlan 30 priority 8192
+spanning-tree vlan 40 priority 8192
 
 end
 wr
@@ -157,7 +187,37 @@ line console 0
 logging synchronous
 exit
 
-! config
+vlan 10
+name BLUE
+exit
+
+vlan 20
+name RED
+exit
+
+vlan 30
+name GREEN
+exit
+
+vlan 40
+name YELLOW
+exit
+
+int g1/0/1
+switchport mode trunk
+
+int g1/0/2
+switchport mode trunk
+
+int g1/0/3
+switchport mode trunk
+
+exit
+
+spanning-tree vlan 10 priority 8192
+spanning-tree vlan 20 priority 8192
+spanning-tree vlan 30 priority 4096
+spanning-tree vlan 40 priority 4096
 
 end
 wr
