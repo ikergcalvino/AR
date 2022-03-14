@@ -214,6 +214,14 @@ standby 40 track g1/0/5
 
 no shutdown
 
+int g1/0/4
+no switchport
+ip add 10.0.13.3 255.255.255.0
+
+int g1/0/5
+no switchport
+ip add 10.0.23.3 255.255.255.0
+
 router rip
 version 2
 network 10.0.0.0
@@ -310,6 +318,14 @@ standby 40 track g1/0/4
 standby 40 track g1/0/5
 
 no shutdown
+
+int g1/0/4
+no switchport
+ip add 10.0.14.4 255.255.255.0
+
+int g1/0/5
+no switchport
+ip add 10.0.24.4 255.255.255.0
 
 router rip
 version 2
