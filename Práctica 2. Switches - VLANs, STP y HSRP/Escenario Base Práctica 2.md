@@ -172,18 +172,46 @@ spanning-tree vlan 40 priority 8192
 
 int vlan 10
 ip add 10.1.1.253 255.255.255.0
+
+standby 10 ip 10.1.1.1
+standby 10 priority 110
+standby 10 preempt
+standby 10 track g1/0/4
+standby 10 track g1/0/5
+
 no shutdown
 
 int vlan 20
 ip add 10.1.2.253 255.255.255.0
+
+standby 20 ip 10.1.2.1
+standby 20 priority 110
+standby 20 preempt
+standby 20 track g1/0/4
+standby 20 track g1/0/5
+
 no shutdown
 
 int vlan 30
 ip add 10.1.3.253 255.255.255.0
+
+standby 30 ip 10.1.3.1
+standby 30 priority 100
+standby 30 preempt
+standby 30 track g1/0/4
+standby 30 track g1/0/5
+
 no shutdown
 
 int vlan 40
 ip add 10.1.4.253 255.255.255.0
+
+standby 40 ip 10.1.4.1
+standby 40 priority 100
+standby 40 preempt
+standby 40 track g1/0/4
+standby 40 track g1/0/5
+
 no shutdown
 
 router rip
@@ -241,18 +269,46 @@ spanning-tree vlan 40 priority 4096
 
 int vlan 10
 ip add 10.1.1.254 255.255.255.0
+
+standby 10 ip 10.1.1.1
+standby 10 priority 100
+standby 10 preempt
+standby 10 track g1/0/4
+standby 10 track g1/0/5
+
 no shutdown
 
 int vlan 20
 ip add 10.1.2.254 255.255.255.0
+
+standby 20 ip 10.1.2.1
+standby 20 priority 100
+standby 20 preempt
+standby 20 track g1/0/4
+standby 20 track g1/0/5
+
 no shutdown
 
 int vlan 30
 ip add 10.1.3.254 255.255.255.0
+
+standby 30 ip 10.1.3.1
+standby 30 priority 110
+standby 30 preempt
+standby 30 track g1/0/4
+standby 30 track g1/0/5
+
 no shutdown
 
 int vlan 40
 ip add 10.1.4.254 255.255.255.0
+
+standby 40 ip 10.1.4.1
+standby 40 priority 110
+standby 40 preempt
+standby 40 track g1/0/4
+standby 40 track g1/0/5
+
 no shutdown
 
 router rip
