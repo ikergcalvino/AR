@@ -170,6 +170,22 @@ spanning-tree vlan 20 priority 4096
 spanning-tree vlan 30 priority 8192
 spanning-tree vlan 40 priority 8192
 
+int vlan 10
+ip add 10.1.1.253 255.255.255.0
+no shutdown
+
+int vlan 20
+ip add 10.1.2.253 255.255.255.0
+no shutdown
+
+int vlan 30
+ip add 10.1.3.253 255.255.255.0
+no shutdown
+
+int vlan 40
+ip add 10.1.4.253 255.255.255.0
+no shutdown
+
 end
 wr
 reload
@@ -218,6 +234,22 @@ spanning-tree vlan 10 priority 8192
 spanning-tree vlan 20 priority 8192
 spanning-tree vlan 30 priority 4096
 spanning-tree vlan 40 priority 4096
+
+int vlan 10
+ip add 10.1.1.254 255.255.255.0
+no shutdown
+
+int vlan 20
+ip add 10.1.2.254 255.255.255.0
+no shutdown
+
+int vlan 30
+ip add 10.1.3.254 255.255.255.0
+no shutdown
+
+int vlan 40
+ip add 10.1.4.254 255.255.255.0
+no shutdown
 
 end
 wr
