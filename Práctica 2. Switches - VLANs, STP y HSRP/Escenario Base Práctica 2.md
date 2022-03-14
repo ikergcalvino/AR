@@ -186,6 +186,10 @@ int vlan 40
 ip add 10.1.4.253 255.255.255.0
 no shutdown
 
+router rip
+version 2
+network 10.0.0.0
+
 end
 wr
 reload
@@ -250,6 +254,10 @@ no shutdown
 int vlan 40
 ip add 10.1.4.254 255.255.255.0
 no shutdown
+
+router rip
+version 2
+network 10.0.0.0
 
 end
 wr
