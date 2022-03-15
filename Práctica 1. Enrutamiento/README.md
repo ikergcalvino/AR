@@ -95,3 +95,36 @@ Router(config-router)# no passive-interface <int-type> <int-num>
 ```
 Router(config-router)# redistribute <protocolo/static>
 ```
+
+## Verificación y prueba
+
+### Verificación de conectividad
+
+```
+Router# show ip interface brief
+```
+
+```
+Router# ping <ip>
+```
+
+```
+Router# traceroute <ip>
+```
+
+### Verificación de enrutamiento
+
+```
+Router# show ip route
+Router# show ip protocols
+```
+
+```
+Router# show ip rip database
+Router# debug ip rip
+Router# debug ip rip {events}
+```
+
+```
+Router# show running-config
+```
